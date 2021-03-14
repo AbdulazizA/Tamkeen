@@ -5,8 +5,8 @@
 
 ###################################
 ################################# Default configuration ###################
-baseURL = "http://examplesite.org"
-title = "Airspace | Creative Agency Hugo Template"
+baseURL = "https://github.com/AbdulazizA/Tamkeen"
+title = "Tamkeen | Creative Agency"
 theme = "airspace"
 # themesDir = "../.."
 # post pagination
@@ -82,7 +82,7 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
-logo_width = "150px"
+logo_width = "200px"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
@@ -161,7 +161,7 @@ copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Ri
 # main menu
 [[Languages.en.menu.main]]
 name = "Home"
-URL = "/"
+URL = ""
 weight = 1
 
 [[Languages.en.menu.main]]
@@ -236,91 +236,91 @@ name = "Contact"
 URL = "contact"
 weight = 6
 
-################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
+################################ Arabic Language ########################
+[Languages.ar]
+languageName = "Ar"
+languageCode = "ar-ar"
+contentDir = "content/arabic"
 weight = 2
 # copyright
 copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
 
 
-######################### france navigation #############################
+######################### arabic navigation #############################
 # main menu
-[[Languages.fr.menu.main]]
-name = "Accueil"
-URL = "/"
+[[Languages.ar.menu.main]]
+name = "الصفحة الرئيسية"
+URL = ""
 weight = 1
 
-[[Languages.fr.menu.main]]
-name = "À propos"
-URL = "about"
+[[Languages.ar.menu.main]]
+name = "قصتنا"
+URL = "about" # Our Story
 weight = 2
 
-[[Languages.fr.menu.main]]
-name = "Projet"
-URL = "project"
+[[Languages.ar.menu.main]]
+name = "مشاريعنا"
+URL = "project" 
 weight = 3
 
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 name = "Blog"
 URL = "blog"
 weight = 4
 
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 weight = 5
 name = "Pages"
 hasChildren = true
 
-  [[Languages.fr.menu.main]]
+  [[Languages.ar.menu.main]]
   parent = "Pages"
   name = "FAQ"
   URL = "faq"
 
-  [[Languages.fr.menu.main]]
+  [[Languages.ar.menu.main]]
   parent = "Pages"
   name = "Tarification"
   URL = "pricing"
 
-  [[Languages.fr.menu.main]]
+  [[Languages.ar.menu.main]]
   parent = "Pages"
   name = "Un service"
   URL = "service"
   
-[[Languages.fr.menu.main]]
-name = "Contact"
+[[Languages.ar.menu.main]]
+name = "تواصل معنا"
 URL = "contact"
 weight = 6
 
 
 # footer menu
-[[Languages.fr.menu.footer]]
-name = "About"
-URL = "about"
+[[Languages.ar.menu.footer]]
+name = "قصتنا"
+URL = "about" # Our Story 
 weight = 1
 
-[[Languages.fr.menu.footer]]
+[[Languages.ar.menu.footer]]
 name = "Project"
-URL = "project"
+URL = "project" 
 weight = 2
 
-[[Languages.fr.menu.footer]]
+[[Languages.ar.menu.footer]]
 name = "Service"
-URL = "service"
+URL = "service" 
 weight = 3
 
-[[Languages.fr.menu.footer]]
+[[Languages.ar.menu.footer]]
 name = "Pricing"
 URL = "pricing"
 weight = 4
 
-[[Languages.fr.menu.footer]]
+[[Languages.ar.menu.footer]]
 name = "FAQ"
 URL = "faq"
 weight = 5
 
-[[Languages.fr.menu.footer]]
+[[Languages.ar.menu.footer]]
 name = "Contact"
 URL = "contact"
 weight = 6

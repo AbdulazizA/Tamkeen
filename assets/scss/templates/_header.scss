@@ -12,6 +12,13 @@ header{
 	.navbar-brand {
 		padding-top: 5px;
 	}
+	.navbar-brand>img{
+		float: left;
+		position: fixed;
+		left:0;
+		top:-35px;
+		right: unset;
+	}
 	.navbar-default{
 		background: none;
 		border: 0px;
@@ -30,4 +37,14 @@ header{
 			}
 		}
 	}
+	:lang(ar) .navbar-nav > li {
+		float: right;
+	}
+	:lang(ar) .navbar-brand>img{
+		float: right;
+		left: unset;
+		right: 0;
+	}
+	:lang(ar) .navbar-nav{
+		float: left!important;	}
 }
