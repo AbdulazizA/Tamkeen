@@ -1,0 +1,30 @@
+- id: last_update
+  translation: آخر تحديث
+- id: phone
+  translation: هاتف
+- id: email
+  translation: بريد الالكتروني
+- id: location
+  translation: موقع
+- id: buy_now
+  translation: اشتري الآن
+- id: address_title
+  translation: توقف للزيارة
+- id: submit
+  translation: إرسال
+- id: all
+  translation: الجميع
+- id: posted_by
+  translation: منشور من طرف
+- id: read_more
+  translation: أكمل القراءة
+- id: latest_posts
+  translation: أحدث الأخبار
+- id: page_prev
+  translation: الصفحة السابقة
+- id: page_next
+  translation: الصفحة التالية
+- id: tags
+  translation: العلامات
+- id: categories
+  translation: التصنيفات

@@ -14,9 +14,9 @@ header{
 	}
 	.navbar-brand>img{
 		float: left;
-		position: fixed;
-		left:0;
-		top:-35px;
+		position: absolute;
+		left:-40px;
+		top:-50px;
 		right: unset;
 	}
 	.navbar-default{
@@ -43,7 +43,7 @@ header{
 	:lang(ar) .navbar-brand>img{
 		float: right;
 		left: unset;
-		right: 0;
+		right: -40px;
 	}
 	:lang(ar) .navbar-nav{
 		float: left!important;	}
